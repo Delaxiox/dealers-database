@@ -28,10 +28,7 @@ Thumbs.db
 *.swp
 
 # Netlify
-netlify.toml
-
-# Others
-*.local
+# netlify.toml
 
 # Yes
 serviceAccountKey.json
