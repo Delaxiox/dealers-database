@@ -1,2 +1,26 @@
-# Auto detect text files and perform LF normalization
+# Ensure consistent line endings
 * text=auto
+
+# Handle various file types
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+*.json text
+*.css text
+*.html text
+*.md text
+
+# Mark certain files as binary to avoid Git attempting to process them as text
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.svg binary
+*.pdf binary
+
+# Avoid merging changes for certain files (e.g., package-lock.json)
+package-lock.json merge=union
+
+# Set the merge driver for specific file types
+*.lock merge=union
