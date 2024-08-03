@@ -32,3 +32,6 @@ netlify.toml
 
 # Others
 *.local
+
+# Yes
+serviceAccountKey.json
